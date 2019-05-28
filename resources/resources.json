@@ -1,0 +1,94 @@
+[
+  {
+    "name":"House Of The Rising Sun",
+    "singername":"Josh White",
+    "time":"03:09",
+    "src":"./resources/HouseOfTheRisingSun.mp3",
+    "img":"./images/houseoftherisingsun.jpg",
+    "album": "The Animals",
+    "lyric": ""
+  },
+  {
+    "name": "平凡的一天",
+    "singername": "毛不易",
+    "time": "03:28",
+    "src": "./resources/normalday.mp3",
+    "img": "./images/normal_day.jpg",
+    "album": "平凡的一天",
+    "lyric": "./resources/平凡的一天de.txt"
+  },
+  {
+    "name": "一荤一素",
+    "singername": "毛不易",
+    "time": "04:41",
+    "src": "./resources/毛不易 - 一荤一素.mp3",
+    "img": "images/normal_day.jpg",
+    "album": "平凡的一天",
+    "lyric": "./resources/"
+  },
+  {
+    "name": "消愁",
+    "singername": "毛不易",
+    "time": "04:21",
+    "src": "./resources/毛不易 - 消愁.mp3",
+    "img": "./images/normal_day.jpg",
+    "album": "平凡的一天"
+  },
+  {
+    "name": "像我这样的人",
+    "singername": "毛不易",
+    "time": "03:27",
+    "src": "./resources/毛不易 - 像我这样的人.mp3",
+    "img": "./images/normal_day.jpg",
+    "album": "平凡的一天"
+  },
+  {
+    "name": "想你想你",
+    "singername": "毛不易",
+    "time": "03:10",
+    "src": "./resources/毛不易 - 想你想你.mp3",
+    "img": "./images/normal_day.jpg",
+    "album": "平凡的一天"
+  },
+  {
+    "name": "借",
+    "singername": "毛不易",
+    "time": "04:03",
+    "src": "./resources/毛不易 - 借.mp3",
+    "img": "./images/normal_day.jpg",
+    "album": "平凡的一天",
+    "lyric": "resources/569214250.txt"
+
+  },
+  {
+    "name": "给你给我",
+    "singername": "毛不易",
+    "time": "04:01",
+    "src": "./resources/毛不易 - 给你给我.mp3",
+    "img": "./images/eat.jpg",
+    "album": "平凡的一天",
+    "lyric": "resources/569200210.txt"
+  },
+  {
+    "name": "芬芳一生",
+    "singername": "毛不易",
+    "time": "04:01",
+    "src": "./resources/毛不易 - 芬芳一生.mp3",
+    "img": "./images/normal_day.jpg",
+    "album": "平凡的一天",
+    "lyric": "resources/569212211.txt"
+  },
+  {
+    "name": "哎呦",
+    "singername": "毛不易",
+    "time": "03:33",
+    "src": "./resources/毛不易 - aiyo.mp3",
+    "img": "./images/normal_day.jpg",
+    "album": "平凡的一天",
+    "lyric": "resources/569200211.txt"
+  }
+
+
+
+
+]

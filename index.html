@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/wave.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/wave.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/progressbar.js"></script>
+    <script src="js/lyric.js"></script>
+    <script src="js/myJs.js"></script>
+
+
+</head>
+<body>
+<div class="header">
+    <span class="logo"><a href="javascript:;">My Music</a></span>
+    <span><a href="javascript:;">Login</a></span><span><a href="javascript:;">Setting</a></span>
+</div>
+<div class="middle">
+    <div class="middle-in">
+        <div class="left">
+            <div class="function">
+                <span>Favorite</span><span>Add to</span><span>Delete</span><span>Clear Playlist</span><span>Save</span>
+            </div>
+            <div id="playlist" class="playlist">
+                <ul>
+                    <li class="playitems_header">
+                        <div class="list_check_header">
+                            <i></i>
+                        </div>
+                        <div class="list_num_header"></div>
+                        <div class="list_song_name_header">Song</div>
+                        <div class="list_singer_header">Singer</div>
+                        <div class="list_time_header">Time</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="cd-box"><img src="images/normal_day_inner.png" alt=""></div>
+            <div class="songInfo">
+                <p class="songName"><span>歌曲名：</span>平凡的一天</p>
+                <p class="singerName"><span>歌手：</span>毛不易</p>
+                <p class="albumName"><span>专辑名：</span>平凡的一天</p>
+            </div>
+            <div class="lyric-container">
+                <div class="lyric">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom">
+    <div class="bottom-in">
+        <div class="play-control">
+            <a href="javascript:;"><i class="fas fa-backward"></i></a>
+            <a href="javascript:;"><i class="fas fa-play"></i></a>
+            <a href="javascript:;"><i class="fas fa-forward"></i></a>
+        </div>
+        <div class="progress-bar">
+            <div class="song-info">
+                <span class="bar-songname">平凡的一天</span>&nbsp;-&nbsp;
+                <span class="bar-singer">毛不易</span>
+                <span class="time-total">04:32</span>
+                <span class="time-played">00:00&nbsp;/</span>
+            </div>
+
+            <div class="bar">
+                <div class="bar-container">
+                    <div class="bar-progress"></div>
+                </div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div class="miscellaneous">
+            <a href="javascript:;"><i class="fas fa-random" title="noch nicht fertig"></i></a>
+            <a href="javascript:;"><i class="fas fa-heart" title="noch nicht fertig"></i></a>
+            <a href="javascript:;"><i class="fas fa-download" title="noch nicht fertig"></i></a>
+            <a href="javascript:;"><i class="fas fa-comment" title="noch nicht fertig"></i></a>
+            <a href="javascript:;"><i class="fas fa-toggle-on" title="noch nicht fertig"></i></a>
+        </div>
+        <div class="volume">
+            <i class="volume-icon fas fa-volume-up"></i>
+            <div class="volume-bar">
+                <div class="volume-progress"></div>
+                <div class="volume-dot"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="mask-cover"></div>
+<div class="mask"></div>
+<div class="self-intro">
+    <span class="close-button">X</span>
+    <div class="content">
+        <p>Diese Seite enthält ein einfacher Musikplayer. Der besteht aus vier Teile:</p>
+        <ol class="info">
+            <li>Funktionsbereich</li>
+            <li>Musikliste</li>
+            <li>Infomation von Lied</li>
+            <li>Control Panel</li>
+        </ol>
+        <p>Diese Seite ist nur zu zeigen. Aus diesem Grund wurde das Funktionsbereich nicht vollständig entwickelt. </p>
+        <p>Die Musikliste wurde dynamisch generiert, indem AJAX Json Datei liest.</p>
+        <p>Die Lieder und die Coverbilder sind urheberrechtlich geschützt. Ich habe die Lieder gekauft. Die Lieder und die Coverbilder sind nur für die Funktionsanzeige verfügbar.</p>
+        <p>Herzlichen Dank für Ihren Test und Ihre Zeit. Ihre Meinung ist mir sehr wichtig. Aufgrund der Eile von Zeit gibt es unvermeidlich viele Fehler und Bugs. Ich bedanke mich für irgendwelche Kritik oder Korrektur. Dies hilft mir, mich zu verbessern! </p>
+        <p class="sign">Wu Yuguang</p>
+    </div>
+</div>
+<audio src=""></audio>
+</body>
+</html>
